@@ -6,21 +6,13 @@
 }
 
 
-h2 {
+h1, h2, h3, p {
     color: var(--dark-green);
-}
-
-h3 {
-    color: var(--blue);
 }
 
 main {
     display: block;
     margin-top: 80px;
-}
-
-p {
-    color: var(--dark-green);
 }
 
 .blue {
@@ -44,7 +36,6 @@ p {
 .circle {
     border-radius: 100%;
     background-color: var(--light-gray);
-    color: var(--dark-green);
     font-weight: bolder;
     font-size: x-large;
     padding: 0.5em;
