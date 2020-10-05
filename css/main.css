@@ -6,8 +6,12 @@
 }
 
 
-h1, h2, h3, p {
+h1, h2, p {
     color: var(--dark-green);
+}
+
+h3 {
+    color: var(--blue);
 }
 
 main {
@@ -41,6 +45,7 @@ main {
     padding: 0.5em;
     margin: 1em 0.5em 0 0;
     text-align: center;
+    color: var(--dark-green);
 }
 
 .contact {
