@@ -25,7 +25,6 @@ p {
 
 .blue {
     color: var(--blue);
-    color: var(--dark-green);
 }
 
 .btn-blue {
@@ -59,7 +58,7 @@ p {
 
 .description {
     width: 50%;
-    background-color: rgba(241, 244, 247, 0.4);
+    background-color: rgba(241, 244, 247, 0.5);
     padding: 0.5em 1em;
     border-radius: 3px;
 }
