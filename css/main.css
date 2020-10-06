@@ -73,7 +73,7 @@ main {
 }
 
 .highlight {
-    background-color: var(--orange);
+    background-color: var(--blue);
     padding: 1em 5em;
     text-align: center;
     box-shadow: 0 0 2px 5px var(--orange);
