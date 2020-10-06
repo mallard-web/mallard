@@ -1,6 +1,6 @@
 :root {
-    --orange: #fca430;
-    --blue: #92d5e6;
+    --orange: rgba(252, 164, 48, 0.9);
+    --blue: rgb(146, 213, 230);
     --dark-green: #284243;
     --light-gray: #f1f4f7;
 }
@@ -73,10 +73,13 @@ main {
 }
 
 .highlight {
-    background-color: var(--blue);
-    padding: 1em 5em;
+    background-color: rgba(252, 164, 48, 0.8);
+    padding: 1em 1em;
     text-align: center;
-    box-shadow: 0 0 2px 5px var(--blue);
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    /*box-shadow: 0 0 0 0 var(--orange);*/
 
 }
 
@@ -129,6 +132,7 @@ main {
 
     .highlight {
         padding: 0.5em;
+        width: 100%;
     }
 
     .me {
