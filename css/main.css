@@ -11,7 +11,7 @@ h1, h2, p {
 }
 
 h3 {
-    color: var(--blue);
+    color: var(--dark-green);
 }
 
 main {
@@ -73,10 +73,10 @@ main {
 }
 
 .highlight {
-    background-color: var(--blue);
+    background-color: var(--orange);
     padding: 1em 5em;
     text-align: center;
-    box-shadow: 0 0 2px 5px var(--blue);
+    box-shadow: 0 0 2px 5px var(--orange);
 
 }
 
@@ -86,6 +86,9 @@ main {
     background-size: 100%;
     background-color: inherit;
 
+}
+.me {
+    margin-left: 30%;
 }
 
 .navbar-dark {
@@ -122,6 +125,14 @@ main {
     .display-3 {
         font-size: 1.75em;
         font-weight: 400;
+    }
+
+    .highlight {
+        padding: 0.5em;
+    }
+
+    .me {
+        margin: 0;
     }
 
     .services {
