@@ -1,6 +1,6 @@
 :root {
-    --orange: #fca430;
-    --blue: #92d5e6;
+    --orange: rgba(252, 164, 48, 0.9);
+    --blue: rgb(146, 213, 230);
     --dark-green: #284243;
     --light-gray: #f1f4f7;
 }
@@ -11,12 +11,21 @@ h1, h2, p {
 }
 
 h3 {
-    color: var(--blue);
+    color: var(--dark-green);
 }
 
 main {
     display: block;
     margin-top: 80px;
+}
+
+.about {
+    padding: 1em 0 0.5em 0;
+}
+
+.align-bottom {
+    position: relative;
+    bottom: 3px;
 }
 
 .blue {
@@ -59,12 +68,30 @@ main {
     border-radius: 3px;
 }
 
+.full-height {
+    position: relative;
+}
+
+.highlight {
+    background-color: rgba(252, 164, 48, 0.8);
+    padding: 1em 1em;
+    text-align: center;
+    border-radius: 3px;
+    width: 60%;
+    margin: auto;
+    /*box-shadow: 0 0 0 0 var(--orange);*/
+
+}
+
 .jumbotron {
     background-image: url("../images/computer.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: inherit;
 
+}
+.me {
+    margin-left: 30%;
 }
 
 .jumbotron-web-apps {
@@ -108,6 +135,15 @@ main {
     .display-3 {
         font-size: 1.75em;
         font-weight: 400;
+    }
+
+    .highlight {
+        padding: 0.5em;
+        width: 100%;
+    }
+
+    .me {
+        margin: 0;
     }
 
     .services {
