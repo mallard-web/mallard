@@ -67,6 +67,13 @@ main {
 
 }
 
+.jumbotron-web-apps {
+    background-image: url("../images/code.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: inherit;
+}
+
 .navbar-dark {
     background-color: var(--dark-green);
 }
