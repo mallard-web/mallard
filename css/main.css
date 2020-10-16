@@ -84,6 +84,10 @@ section {
     margin: 1em 1em 1em 20%;
 }
 
+.grayscale {
+    filter: grayscale(100%);
+}
+
 .contact {
 
 }
@@ -115,7 +119,8 @@ section {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: inherit;
-
+    margin-left: 0;
+    margin-right: 0;
 }
 .me {
     margin-left: 30%;
@@ -126,6 +131,15 @@ section {
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: inherit;
+}
+
+.jumbotron-web-mgmt {
+    background-image: url("../images/management.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: inherit;
+    background-position-y: -200px;
+    backdrop-filter: blur(100%);
 }
 
 .quote {
@@ -151,6 +165,16 @@ section {
 }
 
 .services {
+    padding: 1em 0;
+}
+
+.services h3 {
+    border-bottom: 1pt solid lightgrey;
+    border-top: 1pt solid lightgrey;
+    padding: 0.25em 0;
+}
+
+.what-this-can-do {
     border-radius: 6px;
     background-color: var(--light-gray);
     margin: 0.5em;
@@ -166,7 +190,7 @@ section {
 @media (max-width: 770px) {
 
     .display-3 {
-        font-size: 1.75em;
+        font-size: 2em;
         font-weight: 400;
     }
 
@@ -175,11 +199,15 @@ section {
         width: 100%;
     }
 
+    .jumbotron-web-mgmt {
+        background-position-y: 0;
+    }
+
     .me {
         margin: 0;
     }
 
-    .services {
+    .what-this-can-do {
         width: 100%;
     }
 
@@ -189,5 +217,7 @@ section {
     .description {
         width: 100%;
     }
+
+
 }
 
